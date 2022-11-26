@@ -1,6 +1,7 @@
 //quiz 
 
-const quizData = [{
+const quizData =  [
+    {
         question: "Who are Kylo Ren parents?",
         a: "Padme and Anakin Skywalker",
         b: "Han Solo and princess Leia",
@@ -124,9 +125,9 @@ submitButton.addEventListener("click", () => {
       else {
         submitButton.style.visibility = 'hidden';
         quiz.innerHTML = `
-              <h2>You did so well!
+              <h2>You did Great!
               <hr>
-              You managed to get${score}/${quizData.length} questions correctly</h2>
+              You managed to get ${score}/${quizData.length} questions correct!</h2>
               <button onclick="window.location.reload();">Play Again</button>
           `;
       }
