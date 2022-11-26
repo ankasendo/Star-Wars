@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
 
 /*Main colors*/
 :root {
-    Yellow: FFE81F;
+    Yellow: Yellow;
     white: #DDDDDE;
     black: #070708; 
 }
@@ -14,11 +16,11 @@
 
 
 body {
-    background-color: #8C8C8D;
-    font-family: 'Merriweather', serif;
+    background-color:black;
+    font-family: 'Poller One', cursive;
 }
 
-/* Devider Line */
+/* Separator Line */
 hr {
     border: 10px solid FFE81F;
     border-radius: 5px;
@@ -31,4 +33,52 @@ hr {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .logo {
+    height: 50%;
+    width: 50%;
+  }
+
+  .main-header {
+    font-size: 30px;
+    margin-top: 0.5em;
+    text-align: center;
+    color: yellow
+  }
+
+  #question {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #444444;
+  }
+
+  #score {
+    color: yellow;
+    background-color: #070708;
+  }
+
+  #incorrect {
+    color: #070708;
+    background-color: yellow;
+  }
+
+  /* Buttons */
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #btn0,
+  #btn1,
+  #btn2,
+  #btn3 {
+    font-size: 15px;
+  padding: 0.8em;
+  margin-top: 1em;
+  border: 1px solid #444444;
+  border-radius: 12px;
+  background-color: #DDDDDE;
+  color: var(--white);
   }
