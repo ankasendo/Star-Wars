@@ -14,9 +14,8 @@ The Website has been built to be fully responsive across all devices but is esse
 * [Technologies](#Technologies)
 * [Existing features](#Existing-Features)
 * [Testing](#Testing)
-* [Bugs and solutions](#Project-Bugs-and-Solutions)
-* [deployment](#Deployment)
-* [credits](#Credits)
+* [Deployment](#Deployment)
+* [Credits](#Credits)
 
 # UX
 
@@ -95,3 +94,91 @@ The Quiz is kept simple, it consist out of main image and questions right below.
 
 * Contact the Developer
       - This would be a way that the user could give more ideas on extra questions, or a way for them to report any bugs that they may have found.
+
+
+# Testing
+
+ ### Automated tests
+
+  + HTML
+
+ This website passed the w3c html validation. There were several errors but they have all been fixed. [W3C validator](https://validator.w3.org/).
+
+  Validation results:
+![html]
+
+[html]:assets/images/html-validator.png
+
+  + CSS
+
+ During the testing, one error and one warning was found and corrected and thus passing through the official wc css validation  [W3C validator](https://jigsaw.w3.org/css-validator/). 
+
+ validation results:
+ ![css]
+
+ [css]:assets/images/css-validator.png
+
+ + JavaScript
+
+ Jshint was used for the javascript validation. There were over 40 warnings but eventually everything was corrected and website passed through the jshint validation. [Jshhint validator](https://jshint.com/)
+ 
+ validation resulte:
+ ![java]
+
+ [java]:assets/images/JavaScript%20validator.png
+
+ ### Manual Testing
+
+   + Desktop
+
+ Everything is working good with Mozilla Firefox, Google Chrome, laptop, large tablet screen and PC. Page loads and all of the page features are working.
+
+   + Mobile
+ 
+ Tested with Samsung s21, Samsung s22, Lenovo tab, iPhone 13,12 and 11. It is responsive as intended.
+
+
+   +  chrome dev tools lighthouse
+
+ ![lighthouse]
+
+ [lighthouse]:assets/images/lighthouse-chrome.png
+
+
+ + Mozila dev tools.
+
+ Testing on all devices on mozila is good as well. 
+
+## Project Bugs and Solutions:
+ No known bugs now. But there were quite a few problems at every stage. Whenever a problem was fixed another woud apear. Here are some.
+
+ * I had an issue with the JS validator, showing warnings about "jshint esversion: 6", this was a new one for me and took a while to figure out.
+With the help of my mentor and the slack community I was able to resolve this.
+
+### Unfixed Bugs
+
+- Through mobile device, the website is not properly aligned. I am aware of this and i do not understand why under 320px the information is no longer centered sometimes. I hope with more time and better understanding of coding, I will be able to resolve this issue.
+
+# Deplyment
+
+- To succsessfully deploy your webpage, go to the GitHub repository and navigate to the 'Settings' tab. Then, select 'Pages' from the menu.
+- Go to the 'Source' menu and select 'Main Branch'.
+- After the page has auto-refreshed, you should see a display with your link - this will mean a successful deployment.
+- Now, any changes pushed from GitPod to the master branch will be visible and take effect on the live project [live project link](https://ankasendo.github.io/Star-Wars/)
+
+# Credits
+
+### Photos/Images
+The only Image I have used in my website is one taken from [ing.com](https://www.ign.com/articles/star-wars-movies-tv-shows-chronological-order) I used this from google images as it is a free site that allows you to download. 
+I could not create my own as this is a TradeMark logo of the Star Wars franchise.
+
+### Code/ Acknowledgements
+- I have recieved help from multiple sources to create this webpage. 
+      There is a lot on this website that I didn't learn or fully understand through the course material. 
+      These are the people or sites that have helped me or gave me the ideas to create what I have produced.
+
+- [Mike Dane Youtube Channel](https://www.youtube.com/c/GiraffeAcademy) 
+      He has helped a lot to explain me a bit deeper some I struggled more with.
+- [W3Schools](https://www.w3schools.com/js/js_string_methods.asp)
+      As a general reminder of what things mean and how to use them.
+- The Slack Community, always someone with more knowledge than me.
