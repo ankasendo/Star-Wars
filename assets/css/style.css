@@ -17,6 +17,8 @@ hr {
     border-radius: 5px;
 }
 
+/* Main body */
+
 .container {
     padding: 0 2rem 1rem 2rem;
     width: 400px;
@@ -82,7 +84,7 @@ ul li {
   box-shadow: 0 0.4rem 0 #DDDDDE; */
 
 button {
-    background-color: #EB232A;
+    background-color: yellow;
     color: #DDDDDE;
     border: none;
     display: block;

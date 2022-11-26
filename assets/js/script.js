@@ -1,4 +1,5 @@
-const quizData = [{
+const quizData = [
+    {
         question: "Who are Kylo Ren parents?",
         a: "Padme and Anakin Skywalker",
         b: "Han Solo and princess Leia",
@@ -22,5 +23,21 @@ const quizData = [{
         c: "Darth Vader",
         d: "Kylo Ren",
         correct: "c",
+    },
+    {
+        question: "What species is Chewbacca? ",
+        a: "Wookie",
+        b: "Jawas",
+        c: "Ewoks",
+        d: "Gungan",
+        correct: "a"
+    },
+    {
+        question: "Who created Star Wars?",
+        a: "Disney", 
+        b: "Quentin Tarantino",
+        c: "George Lucas", 
+        d: "Steven Speilberg",
+        correct: "c"
     },
 ]
