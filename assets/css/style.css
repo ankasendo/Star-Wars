@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    align-content: center;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
 }
 
 /* Separator Line */
+
 hr {
     border: 10px solid FFE81F;
     border-radius: 5px;
@@ -27,7 +29,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     color: yellow;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 .logo {
@@ -64,6 +66,7 @@ hr {
 }
 
 /* list */
+
 ul {
     display: flex;
     flex-direction: column;
@@ -155,4 +158,11 @@ button:hover {
     text-decoration: solid;
     color: yellow;
 
+}
+
+.copyright {
+    color: #d1d35d;
+    font-size: 8px;
+    text-align: center;
+    margin-top: 10%;
 }

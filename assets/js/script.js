@@ -1,7 +1,6 @@
 //quiz 
 
-const quizData =  [
-    {
+const quizData = [{
         question: "Who are Kylo Ren parents?",
         a: "Padme and Anakin Skywalker",
         b: "Han Solo and princess Leia",
@@ -77,6 +76,7 @@ const quizData =  [
 ];
 
 // Get the list elements 
+
 const quiz = document.getElementById("quiz");
 const answerElements = document.querySelectorAll(".answer");
 const questionElement = document.getElementById("question");
@@ -85,12 +85,13 @@ const b_text = document.getElementById("b_text");
 const c_text = document.getElementById("c_text");
 const d_text = document.getElementById("d_text");
 const submitButton = document.getElementById("submit");
-  
+
 // Score card
+
 let currentQuiz = 0;
 let score = 0;
 
-const deselectAnswers = () =>  {
+const deselectAnswers = () => {
     answerElements.forEach((answer) => (answer.checked = false));
 };
 
@@ -103,6 +104,7 @@ const getSelected = () => {
 };
 
 // Loads all questions into Quiz
+
 const loadQuiz = () => {
     deselectAnswers();
     const currentQuizData = quizData[currentQuiz];
@@ -116,20 +118,22 @@ const loadQuiz = () => {
 loadQuiz();
 
 // Event listeners and finds correct answer
+
 submitButton.addEventListener("click", () => {
     const answer = getSelected();
     if (answer) {
-      if (answer === quizData[currentQuiz].correct) score++;
-      currentQuiz++;
-      if (currentQuiz < quizData.length) loadQuiz();
-      else {
-        submitButton.style.visibility = 'hidden';
-        quiz.innerHTML = `
+        if (answer === quizData[currentQuiz].correct) score++;
+        currentQuiz++;
+        if (currentQuiz < quizData.length) loadQuiz();
+        else {
+            submitButton.style.visibility = 'hidden';
+            quiz.innerHTML = `
               <h2>You did Great!
               <hr>
               You managed to get ${score}/${quizData.length} questions correct!</h2>
+              <br>
               <button onclick="window.location.reload();">Play Again</button>
           `;
-      }
+        }
     }
-  });
+});
