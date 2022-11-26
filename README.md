@@ -159,7 +159,7 @@ With the help of my mentor and the slack community I was able to resolve this.
 
 - Through mobile device, the website is not properly aligned. I am aware of this and i do not understand why under 320px the information is no longer centered sometimes. I hope with more time and better understanding of coding, I will be able to resolve this issue.
 
-# Deplyment
+# Deployment
 
 - To succsessfully deploy your webpage, go to the GitHub repository and navigate to the 'Settings' tab. Then, select 'Pages' from the menu.
 - Go to the 'Source' menu and select 'Main Branch'.
