@@ -15,7 +15,7 @@ body {
 /* Separator Line */
 
 hr {
-    border: 10px solid FFE81F;
+    border: 10px;
     border-radius: 5px;
 }
 
