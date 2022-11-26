@@ -76,7 +76,6 @@ const quizData = [{
 ];
 
 // Get the list elements 
-
 const quiz = document.getElementById("quiz");
 const answerElements = document.querySelectorAll(".answer");
 const questionElement = document.getElementById("question");
@@ -86,7 +85,6 @@ const c_text = document.getElementById("c_text");
 const d_text = document.getElementById("d_text");
 const submitButton = document.getElementById("submit");
   
-
 // Score card
 let currentQuiz = 0;
 let score = 0;
@@ -104,7 +102,7 @@ const getSelected = () => {
 };
 
 // Loads all questions into Quiz
-function loadQuiz() {
+const loadQuiz = () => {
     deselectAnswers();
     const currentQuizData = quizData[currentQuiz];
     questionElement.innerText = currentQuizData.question;
@@ -112,11 +110,11 @@ function loadQuiz() {
     b_text.innerText = currentQuizData.b;
     c_text.innerText = currentQuizData.c;
     d_text.innerText = currentQuizData.d;
-}
+};
 
 loadQuiz();
 
-// Event listeners and correct answer
+// Event listeners and finds correct answer
 submitButton.addEventListener("click", () => {
     const answer = getSelected();
     if (answer) {

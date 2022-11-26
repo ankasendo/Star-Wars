@@ -29,12 +29,11 @@ hr {
 }
 
 .logo {
-    height: 50%;
-    width: 50%;
+    height: 70%;
+    width: 70%;
     margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: 25%;
-
+    margin-left: 15%;
 }
 
 .main-header {
@@ -45,7 +44,7 @@ hr {
 }
 
 #question {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -54,11 +53,11 @@ hr {
 
 #score {
     color: yellow;
-    background-color: #070708;
+    background-color: black;
 }
 
 #incorrect {
-    color: #070708;
+    color: black;
     background-color: yellow;
 }
 
@@ -69,12 +68,12 @@ ul {
 }
 
 ul li {
-    font-size: 15px;
+    font-size: 12px;
     font-family: inherit;
     padding: 0.8em;
     margin-top: 1em;
     border: 1px solid #444444;
-    border-radius: 12px;
+    border-radius: 10px;
     background-color: rgb(29, 29, 168);
     color: #d1d35d;
     list-style: none;
@@ -89,7 +88,8 @@ ul li {
 }
 
 button {
-    color: #DDDDDE;
+    background-color: blue;
+    color: #d1d35d;
     border: none;
     display: block;
     width: 100%;
@@ -104,16 +104,17 @@ button:hover {
 }
 
 #submit {
-    background-color: yellow;
-    color: blue;
+    background-color: black;
+    color: yellow;
     text-align: center;
     font-size: 15px;
     font-family: inherit;
     padding: 0.3em;
-    margin-top: 2em;
-    border: 1px solid #444444;
-    border-radius: 6px;
+    margin-top: 5%;
+    border: 1px;
+    border-radius: 1px;
     text-align: center;
+    margin-left: 10%;
 
 }
 
@@ -129,11 +130,20 @@ button:hover {
 }
 
 /* High Score page */
+.score-area {
+    display: flex;
+justify-content: center;
+text-decoration: solid;
+color: yellow;
+background-color: #070708;}
+
+
 #finalScore {
     display: flex;
     justify-content: center;
     text-decoration: solid;
     color: yellow;
+    background-color: blue;
 
 }
 
@@ -144,3 +154,5 @@ button:hover {
     color: yellow;
 
 }
+
+/*media screens up to 350px*/
