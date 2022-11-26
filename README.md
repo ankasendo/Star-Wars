@@ -1,4 +1,6 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![logo]
+
+[logo]: assets/images/starwarssaga-blogroll-1653501853399.jpg
 
 Welcome ankasendo,
 
