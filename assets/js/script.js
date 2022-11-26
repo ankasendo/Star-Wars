@@ -84,6 +84,7 @@ const c_text = document.getElementById("c_text");
 const d_text = document.getElementById("d_text");
 const submitButton = document.getElementById("submit");
   
+
 // Score card
 let currentQuiz = 0;
 let score = 0;
@@ -113,7 +114,7 @@ function loadQuiz() {
 
 loadQuiz();
 
-// Event listeners and finds correct answer
+// Event listeners and correct answer
 submitButton.addEventListener("click", () => {
     const answer = getSelected();
     if (answer) {

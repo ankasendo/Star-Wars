@@ -106,8 +106,7 @@ button:hover {
 
 #submit {
 
-    padding: 0, 2rem;
-    background-color: #070708;
+    background-color: black;
     color: yellow;
     margin-bottom: 3rem;
     text-align: center;
@@ -121,7 +120,9 @@ button:hover {
     display: flex;
     justify-content: center;
     text-decoration: solid;
-    color: #070708;
+    color: yellow;
+    text-align: center;
+
 }
 
 /* High Score page */
