@@ -89,7 +89,6 @@ ul li {
 }
 
 button {
-    background-color: rgb(29, 29, 168);
     color: #DDDDDE;
     border: none;
     display: block;
@@ -105,15 +104,21 @@ button:hover {
 }
 
 #submit {
-
-    background-color: black;
-    color: yellow;
-    margin-bottom: 3rem;
+    background-color: yellow;
+    color: blue;
     text-align: center;
+    font-size: 15px;
+    font-family: inherit;
+    padding: 0.3em;
+    margin-top: 2em;
+    border: 1px solid #444444;
+    border-radius: 6px;
+    text-align: center;
+
 }
 
 #submit:hover {
-    background-color: rgb(29, 29, 168);
+    background-color: #d1d35d;
 }
 
 .score-area {
@@ -121,8 +126,6 @@ button:hover {
     justify-content: center;
     text-decoration: solid;
     color: yellow;
-    text-align: center;
-
 }
 
 /* High Score page */
@@ -130,12 +133,14 @@ button:hover {
     display: flex;
     justify-content: center;
     text-decoration: solid;
-    color: #070708;
+    color: yellow;
+
 }
 
 .btn {
     display: flex;
     justify-content: center;
     text-decoration: solid;
-    color: #070708;
+    color: yellow;
+
 }
