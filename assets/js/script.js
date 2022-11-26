@@ -1,3 +1,5 @@
+//quiz 
+
 const quizData = [{
         question: "Who are Kylo Ren parents?",
         a: "Padme and Anakin Skywalker",
