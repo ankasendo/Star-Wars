@@ -21,7 +21,7 @@ The Website has been built to be fully responsive across all devices but is esse
 
 ![screenshot]
 
-[screenshot]:assets/images/responsive-b%20.png
+[screenshot]:/assets/images/responsive-b%20.png
 
  ### User preference
  I wanted the website to be aesthetically pleasing while using colours that are related to Star Wars theme. I wanted to keep the design minimal to not overwhelm the user while still being enjoyable to look at.
@@ -82,7 +82,7 @@ The Quiz is kept simple, it consist out of main image and questions right below.
 
 ![main-image]
 
-[main-image]:assets/images/main%20page.png
+[main-image]:/assets/images/main%20page.png
 
 ### Potential Future Features
 
@@ -107,7 +107,7 @@ The Quiz is kept simple, it consist out of main image and questions right below.
   Validation results:
 ![html]
 
-[html]:assets/images/html-validator.png
+[html]:/assets/images/html-validator.png
 
   + CSS
 
@@ -116,7 +116,7 @@ The Quiz is kept simple, it consist out of main image and questions right below.
  validation results:
  ![css]
 
- [css]:assets/images/css-validator.png
+ [css]:/assets/images/css-validator.png
 
  + JavaScript
 
@@ -125,7 +125,7 @@ The Quiz is kept simple, it consist out of main image and questions right below.
  validation resulte:
  ![java]
 
- [java]:assets/images/JavaScript%20validator.png
+ [java]:/assets/images/JavaScript%20validator.png
 
  ### Manual Testing
 
@@ -142,7 +142,7 @@ The Quiz is kept simple, it consist out of main image and questions right below.
 
  ![lighthouse]
 
- [lighthouse]:assets/images/lighthouse-chrome.png
+ [lighthouse]:/assets/images/lighthouse-chrome.png
 
 
  + Mozila dev tools.
