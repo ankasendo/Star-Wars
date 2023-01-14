@@ -1,4 +1,6 @@
-<h1> Star Wars Quiz</h1>
+# Portfolio project 1 - JavaScript 
+
+# Star Wars Quiz
 
 [View the live project here!](https://ankasendo.github.io/Star-Wars/)
 
