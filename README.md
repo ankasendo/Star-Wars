@@ -1,4 +1,4 @@
-# Portfolio project 1 - JavaScript 
+# Portfolio project 2 - JavaScript 
 
 # Star Wars Quiz
 
